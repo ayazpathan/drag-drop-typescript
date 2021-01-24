@@ -107,7 +107,7 @@ function autobind(
 }
 
 
-// Component Base Class
+// Component Base Class just like other calss components in libraries
 
 class Component<T extends HTMLElement, U extends HTMLElement> {
   templateElement: HTMLTemplateElement;
