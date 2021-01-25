@@ -140,7 +140,7 @@ class Component<T extends HTMLElement, U extends HTMLElement> {
 }
 
 
-// Project List
+// Project List where all project will be listed based on what type of project it is
 
 class Projectlist{
   templateElement: HTMLTemplateElement;
