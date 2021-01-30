@@ -1,9 +1,9 @@
-import { DragTarget } from "../models/drag-drop.js";
-import { Project, ProjectStatus } from "../models/project.js";
-import Component from "./base-component.js";
-import { autobind } from "../decorators/autobind.js";
-import { projectState } from "../state/project-state.js";
-import { ProjectItem } from "./project-item.js";
+import { DragTarget } from "../models/drag-drop";
+import { Project, ProjectStatus } from "../models/project";
+import Component from "./base-component";
+import { autobind } from "../decorators/autobind";
+import { projectState } from "../state/project-state";
+import { ProjectItem } from "./project-item";
 
 // Project List where all project will be listed based on what type of project it is
 export class Projectlist extends Component<HTMLElement, HTMLDivElement>
