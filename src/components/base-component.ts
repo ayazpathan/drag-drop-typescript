@@ -1,6 +1,5 @@
-namespace App{
-    // Component Base Class just like other calss components in libraries
-export abstract class Component<T extends HTMLElement, U extends HTMLElement> {
+   // Component Base Class just like other calss components in libraries
+export default abstract class Component<T extends HTMLElement, U extends HTMLElement> {
     templateElement: HTMLTemplateElement;
     hostElement: T;
     element: U;
@@ -36,4 +35,3 @@ export abstract class Component<T extends HTMLElement, U extends HTMLElement> {
     abstract configure(): void;
     abstract renderContent(): void;
   }
-}
