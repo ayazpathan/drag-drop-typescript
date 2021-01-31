@@ -5,7 +5,6 @@ new ProjectInput();
 new Projectlist('active');
 new Projectlist('finished');
 
-console.log("\n\n\nHi Webpack Test");
 
 
 
